@@ -1,7 +1,7 @@
 (function (window) {
     'use strict';
-    
-    var App=window.App || {};
+
+    var App = window.App || {};
     var $ = window.jQuery;
 
     function CheckList(selector) {
@@ -64,7 +64,7 @@
 
         this.$element = $div;
     }
-    
+
     App.CheckList = CheckList;
     window.App = App;
-}) (window);
+})(window);

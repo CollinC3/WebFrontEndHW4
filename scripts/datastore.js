@@ -1,6 +1,7 @@
-(function(window) {
+(function (window) {
     'use strict';
     var App = window.App || {};
+
     function DataStore() {
         this.data = {};
     }
@@ -13,7 +14,7 @@
         return this.data[key];
     };
 
-    DataStore.prototype.getAll = function() {
+    DataStore.prototype.getAll = function () {
         return this.data;
     };
 
@@ -23,4 +24,4 @@
 
     App.DataStore = DataStore;
     window.App = App;
-}) (window);
+})(window);
